@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 sachajw/endoflife.date is built on the following main stack:
+
 - [Ruby](https://www.ruby-lang.org) – Languages
 - [Python](https://www.python.org) – Languages
 - [Jekyll](http://jekyllrb.com/) – Static Site Generators
@@ -11,11 +12,13 @@ sachajw/endoflife.date is built on the following main stack:
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 sachajw/endoflife.date is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1114/ad968c1615d956e800fa36494314f48c.jpeg' alt='Jekyll'/> [Jekyll](http://jekyllrb.com/) – Static Site Generators
@@ -25,14 +28,15 @@ sachajw/endoflife.date is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [sachajw/endoflife.date](https://github.com/sachajw/endoflife.date)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|19<br/>Tools used|11/16/23 <br/>Report generated|
+|20<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -145,7 +149,7 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (8)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (9)</h2>
 
 ## <img width='24' height='24' src='https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg'/> RubyGems (5)
 
@@ -158,13 +162,14 @@ Full tech stack [here](/techstack.md)
 |[webrick](https://rubygems.org/webrick)|v1.8.1|01/27/23|dependabot[bot] |BSD-2-Clause|N/A|
 
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg'/> PyPI (3)
+## <img width='24' height='24' src='https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg'/> PyPI (4)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[deepdiff](https://pypi.org/deepdiff)|v5.7.0|05/24/22|Nemo |MIT|N/A|
-|[packaging](https://pypi.org/packaging)|v21.3|10/29/22|Nemo |BSD-3-Clause,Apache-2.0|N/A|
-|[ruamel.yaml](https://pypi.org/ruamel.yaml)|v0.17.21|05/24/22|Nemo |MIT|N/A|
+|[PyYAML](https://pypi.org/project/PyYAML)|v6.0|05/24/22|Nemo |MIT|N/A|
+|[deepdiff](https://pypi.org/project/deepdiff)|v5.7.0|05/24/22|Nemo |MIT|N/A|
+|[packaging](https://pypi.org/project/packaging)|v21.3|10/29/22|Nemo |BSD-3-Clause,Apache-2.0|N/A|
+|[ruamel.yaml](https://pypi.org/project/ruamel.yaml)|v0.17.21|05/24/22|Nemo |MIT|N/A|
 
 <br/>
 <div align='center'>
