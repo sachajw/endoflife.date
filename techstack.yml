@@ -1,11 +1,12 @@
 repo_name: sachajw/endoflife.date
 report_id: 293baac9ee200fee3333251acba18b56
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-16T10:42:09+00:00'
+timestamp: '2024-01-05T08:39:02+00:00'
 requested_by: sachajw
 provider: github
 branch: master
-detected_tools_count: 19
+detected_tools_count: 20
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/sachajw/endoflife.date
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/sachajw/endoflife.date
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -37,8 +40,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
-  detection_source_url: ".ruby-version"
-  detection_source: ".ruby-version"
+  detection_source_url: https://github.com/sachajw/endoflife.date/blob/master/.ruby-version
+  detection_source: Repo Metadata
   last_updated_by: Nemo
   last_updated_on: 2022-07-19 06:20:40.000000000 Z
 - name: Git
@@ -49,6 +52,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/sachajw/endoflife.date
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -58,7 +62,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/validate.yaml"
+  detection_source_url: https://github.com/sachajw/endoflife.date/blob/master/.github/workflows/auto-merge-release-updates.yml
+  detection_source: ".github/workflows/auto-merge-release-updates.yml"
   last_updated_by: Marc Wrobel
   last_updated_on: 2023-03-03 19:46:05.000000000 Z
 - name: PyPI
@@ -69,6 +74,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/sachajw/endoflife.date/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Nemo
   last_updated_on: 2022-05-24 12:28:19.000000000 Z
@@ -80,6 +86,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/sachajw/endoflife.date/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: Nemo
   last_updated_on: 2019-05-27 11:13:58.000000000 Z
@@ -92,6 +99,7 @@ tools:
   category: Application Utilities
   sub_category: Static Web Hosting
   image_url: https://img.stackshare.io/service/2748/default_5dfbb146cf22182bca88c7d07f2515a5888fc12a.jpg
+  detection_source_url: https://github.com/sachajw/endoflife.date/blob/master/netlify.toml
   detection_source: netlify.toml
   last_updated_by: Nemo
   last_updated_on: 2022-07-19 06:20:40.000000000 Z
@@ -105,7 +113,7 @@ tools:
   category: Application Utilities
   sub_category: Static Site Generators
   image_url: https://img.stackshare.io/service/1114/ad968c1615d956e800fa36494314f48c.jpeg
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/sachajw/endoflife.date/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-10-27 12:02:24.000000000 Z
@@ -114,6 +122,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/3730/no-img-open-source.png
+  detection_source_url: https://github.com/sachajw/endoflife.date/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Nemo
   last_updated_on: 2022-05-24 13:46:55.000000000 Z
@@ -126,6 +135,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/sachajw/endoflife.date
   detection_source: Repo Metadata
 - name: icalendar
   description: Implements the iCalendar specification
@@ -137,7 +147,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19486/default_784a2cb941e3df7ba2e632b15e88998b8e4fa511.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/sachajw/endoflife.date/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Riku Takeuchi
   last_updated_on: 2022-12-27 16:19:24.000000000 Z
@@ -151,7 +161,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19149/default_b0a1033a29112f6f50b1dd3157e5fbf94dd2778a.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/sachajw/endoflife.date/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-10-27 12:02:24.000000000 Z
@@ -166,7 +176,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19137/default_302643c2b99caa1c440c0d4aa23d4230e1cc78e3.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/sachajw/endoflife.date/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-10-27 12:02:24.000000000 Z
@@ -180,6 +190,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19516/default_07037590725b871de29c1d2ebb4610950e953355.png
+  detection_source_url: https://github.com/sachajw/endoflife.date/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: Nemo
   last_updated_on: 2019-05-27 11:13:58.000000000 Z
@@ -194,13 +205,27 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19444/default_e747a715ce0379afdb68c78657d70e4a512bf5f4.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/sachajw/endoflife.date/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot[bot]
   last_updated_on: 2023-01-27 12:01:03.000000000 Z
+- name: PyYAML
+  description: YAML parser and emitter for Python
+  package_url: https://pypi.org/project/PyYAML
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19829/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/sachajw/endoflife.date/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nemo
+  last_updated_on: 2022-05-24 13:46:55.000000000 Z
 - name: deepdiff
   description: Deep Difference and Search of any Python object/data
-  package_url: https://pypi.org/deepdiff
+  package_url: https://pypi.org/project/deepdiff
   version: 5.7.0
   license: MIT
   open_source: true
@@ -208,13 +233,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20217/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/sachajw/endoflife.date/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Nemo
   last_updated_on: 2022-05-24 13:46:55.000000000 Z
 - name: packaging
   description: Core utilities for Python packages
-  package_url: https://pypi.org/packaging
+  package_url: https://pypi.org/project/packaging
   version: '21.3'
   license: BSD-3-Clause,Apache-2.0
   open_source: true
@@ -222,14 +247,14 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19894/default_f716e4bc541a9eb6e3f5b7a20d7c35355075b0b4.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/sachajw/endoflife.date/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Nemo
   last_updated_on: 2022-10-29 19:22:10.000000000 Z
 - name: ruamel.yaml
   description: Ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation
     of comments
-  package_url: https://pypi.org/ruamel.yaml
+  package_url: https://pypi.org/project/ruamel.yaml
   version: 0.17.21
   license: MIT
   open_source: true
@@ -237,7 +262,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19918/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/sachajw/endoflife.date/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Nemo
   last_updated_on: 2022-05-24 12:28:19.000000000 Z
